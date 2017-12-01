@@ -1,0 +1,73 @@
+
+==================== FINAL INTERFACE ====================
+2017-12-01 18:50:50.425529 UTC
+
+interface exercise1-0.1.0.0-7bAbtm6tHPS587I51PvjTx:Exercise.Recursive 8002
+  interface hash: e8d0e7ed71672a65c7a97b45b1c0f83a
+  ABI hash: 6852dd321e2d0c48b470373e4606032a
+  export-list hash: 0a3a8e7cc48b8c65a5010c1102b5c565
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 6941e8a3e48dba60ef78b14284373735
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Exercise.Recursive.numberThree
+module dependencies:
+package dependencies: base-4.9.1.0* ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Const
+                         base-4.9.1.0:Data.Monoid base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:GHC.Generics base-4.9.1.0:GHC.IO.Exception
+                         base-4.9.1.0:GHC.TypeLits
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.IO.Handle ba98a5b34d78cbf48b41fe58a3735c69
+import  -/  base-4.9.1.0:GHC.IO.Handle.FD dbf0d0d4f42ab1465129a88ccf7880ff
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  base-4.9.1.0:System.IO e4a64a8e3dce8616da54f0ee7104f7db
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+4abfbf10092577813e26fa1148b4d77f
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Exercise.Recursive.$trModule2
+                   Exercise.Recursive.$trModule1) -}
+53b726fc471feb7577b4987cf15af881
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Exercise.Recursive"#) -}
+61b1d7534152fb8698d7089810b17ef8
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "exercise1-0.1.0.0-7bAbtm6tHPS587I51PvjTx"#) -}
+0de33f0fbdb941349bc00198ffc801c8
+  numberThree :: GHC.Types.IO ()
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Exercise.Recursive.numberThree1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+adbccd6d279db48e39fce77972e93d78
+  numberThree1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (Exercise.Recursive.numberThree2
+                   (GHC.Types.[] @ GHC.Types.Char)) -}
+65cf6064ae901a365105581af745084b
+  numberThree2 ::
+    [GHC.Types.Char]
+    -> GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 2, Strictness: <S,1*U><S,U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

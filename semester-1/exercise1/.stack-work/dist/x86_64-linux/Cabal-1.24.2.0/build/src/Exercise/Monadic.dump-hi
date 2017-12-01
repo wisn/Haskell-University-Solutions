@@ -1,0 +1,68 @@
+
+==================== FINAL INTERFACE ====================
+2017-12-01 18:55:44.941636 UTC
+
+interface exercise1-0.1.0.0-7bAbtm6tHPS587I51PvjTx:Exercise.Monadic 8002
+  interface hash: 2fd1e7eff87b05c168edea5a5642644d
+  ABI hash: b734059704c06a111ea52196b501edf7
+  export-list hash: a3c8d221eca7664efec6a84900e81498
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 6941e8a3e48dba60ef78b14284373735
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Exercise.Monadic.numberThree
+module dependencies:
+package dependencies: base-4.9.1.0* ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Either base-4.9.1.0:Data.Functor.Const
+                         base-4.9.1.0:Data.Monoid base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:GHC.Generics base-4.9.1.0:GHC.IO.Exception
+                         base-4.9.1.0:GHC.TypeLits
+import  -/  base-4.9.1.0:Control.Monad a6784c5dab0d75c63dabec5a37843f98
+import  -/  base-4.9.1.0:GHC.Base c4231c43c07e46080a26bf94094c7aa1
+import  -/  base-4.9.1.0:GHC.IO.Handle ba98a5b34d78cbf48b41fe58a3735c69
+import  -/  base-4.9.1.0:GHC.IO.Handle.FD dbf0d0d4f42ab1465129a88ccf7880ff
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  base-4.9.1.0:System.Exit 068ba078eb20417d7af66db8b8ab4db1
+import  -/  base-4.9.1.0:System.IO e4a64a8e3dce8616da54f0ee7104f7db
+import  -/  ghc-prim-0.5.0.0:GHC.Classes 0bdf3d057a415ec1b84a7b1994efbe47
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+85add9aa9ebf3e1515624603e473344f
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module
+                   Exercise.Monadic.$trModule2
+                   Exercise.Monadic.$trModule1) -}
+9814b49609f1610084767e7487d51947
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Exercise.Monadic"#) -}
+6be20e52c6ff31845bf107f41bf3811d
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS
+                   "exercise1-0.1.0.0-7bAbtm6tHPS587I51PvjTx"#) -}
+52c49739e7f1f3ede47e8c05d9c7f5a4
+  numberThree :: GHC.Types.IO ()
+  {- Arity: 1, Strictness: <S,U>,
+     Unfolding: InlineRule (0, True, True)
+                Exercise.Monadic.numberThree1
+                  `cast`
+                (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+a78dc2ca7efd77812a0f31fcc056f74f
+  numberThree1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Strictness: <S,U> -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

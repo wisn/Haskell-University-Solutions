@@ -1,7 +1,7 @@
 name:                exercise1
 version:             0.1.0.0
 synopsis:            An exercise from Haskell University
-homepage:            https://github.com/wisn/tree/master/semester-1/exercise1#readme
+homepage:            https://github.com/wisn/Haskell-University-Solutions/tree/master/semester-1/exercise1#readme
 license:             MIT
 license-file:        LICENSE
 author:              Wisnu Adi Nurcahyo
@@ -15,7 +15,7 @@ cabal-version:       >=1.10
 -- To avoid duplicated efforts in documentation and dealing with the
 -- complications of embedding Haddock markup inside cabal files, it is
 -- common to point users to the README.md file.
-description:         Please see the README on Github at <https://github.com/wisn/tree/master/semester-1/exercise1#readme>
+description:         Please see the README on Github at <https://github.com/wisn/Haskell-University-Solutions/tree/master/semester-1/exercise1#readme>
 
 library
   hs-source-dirs:      src
@@ -46,4 +46,4 @@ test-suite exercise1-test
 
 source-repository head
   type:     git
-  location: https://github.com/wisn/tree/master/semester-1/exercise1
+  location: https://github.com/wisn/Haskell-University-Solutions/tree/master/semester-1/exercise1
